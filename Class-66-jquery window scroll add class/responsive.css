@@ -1,0 +1,45 @@
+/* Tablet Layout: 768px */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+  img.hand-absolute{
+    position: relative;
+    right: 0;
+    margin-top: 20px;
+  }
+
+  .features-wrap{
+    padding-bottom: 0;
+  }
+
+  .section-title{
+    margin-bottom: 20px;
+  }
+
+  h3{
+    margin-top: 50px;
+  }
+}
+
+/* Mobile Layout: 767px */
+@media only screen and (max-width: 767px){
+  img.hand-absolute{
+    position: relative;
+    right: 0;
+    margin-top: 20px;
+  }
+
+  .features-wrap{
+    padding: 0 10px;
+  }
+
+  .section-title{
+    margin: 0;
+  }
+
+  h3{
+    margin-top: 50px;
+  }
+
+  .features-area{
+    padding-top: 50px;
+  }
+}
